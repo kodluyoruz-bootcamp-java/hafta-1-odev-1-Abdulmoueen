@@ -1,0 +1,14 @@
+import java.util.Scanner
+public class MyClass {
+    public static void main(String[] args) {
+        float a;
+        int m;
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter a number");
+        a = input.nextFloat();
+        m= Math.round(a);
+        System.out.println(m);
+        
+    }
+    
+}
